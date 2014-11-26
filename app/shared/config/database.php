@@ -3,7 +3,7 @@ return array(
     'db_config' => array(
         // required
         'database_type' => 'mysql',
-        'database_name' => 'name',
+        'database_name' => '',
         'server' => GIROCLETA_DB_SERVER,
         'username' => GIROCLETA_DB_USER,
         'password' => GIROCLETA_DB_PASSWD,
