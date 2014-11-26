@@ -4,11 +4,11 @@ return array(
         // required
         'database_type' => 'mysql',
         'database_name' => 'name',
-        'server' => 'localhost',
-        'username' => 'your_username',
-        'password' => 'your_password',
+        'server' => GIROCLETA_DB_SERVER,
+        'username' => GIROCLETA_DB_USER,
+        'password' => GIROCLETA_DB_PASSWD,
         // optional
-        'port' => 3306,
+        'port' => GIROCLETA_DB_PORT,
         'charset' => 'utf8',
         // driver_option for connection, read more from http://www.php.net/manual/en/pdo.setattribute.php
         'option' => array(
