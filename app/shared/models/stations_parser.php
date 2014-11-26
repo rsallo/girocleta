@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Girocleta\Shared\Models;
 
 class StationsParser
 {

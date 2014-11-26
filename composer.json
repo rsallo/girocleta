@@ -9,6 +9,8 @@
         "pimple/pimple": "~3.0"
     },
     "autoload": {
-        "classmap": ["app/shared/models/"]
+        "psr-4": {
+            "Girocleta\\": "app/"
+        }
     }
 }

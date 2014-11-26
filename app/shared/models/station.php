@@ -1,12 +1,14 @@
 <?php
 
+namespace Girocleta\Shared\Models;
+
 class Station
 {
-    private $ext_id;
-    private $lat;
-    private $lon;
-    private $bikes;
-    private $frees;
+    public $ext_id;
+    public $lat;
+    public $lon;
+    public $bikes;
+    public $frees;
     
     public function __construct($ext_id, $lat, $lon, $bikes, $frees)
     {

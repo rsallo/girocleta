@@ -1,11 +1,10 @@
 <?php
 
-/**
- * Bootstrapping code
- */
+// require the boostraping script
+require './../../bootstrap.php';
 
-// include composer autoloader
-include_once __DIR__ .'/../../vendor/autoload.php';
+use Girocleta\Shared\Models\StationsParser as StationsParser;
+
 
 // define base URL
 $girocleta_stations_url = 'http://www.girocleta.cat/ESTACIONS.aspx';
